@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Set up database connection.
 client = MongoClient(
-    "mongodb://localhost:27017/flask")
+    "mongodb://db:27017/flask")
 db = client['db_name']
 
 
